@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <defs>
+    <linearGradient id="badge" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="badge2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="600" rx="80" fill="#0b1020"/>
+  <path d="M300 90L420 150v170c0 120-78 210-120 250-42-40-120-130-120-250V150L300 90z" fill="none" stroke="url(#badge)" stroke-width="16"/>
+  <g fill="url(#badge2)" stroke="#d1fae5" stroke-width="3">
+    <circle cx="300" cy="200" r="12"/>
+    <circle cx="230" cy="260" r="12"/>
+    <circle cx="300" cy="320" r="12"/>
+    <circle cx="370" cy="260" r="12"/>
+    <circle cx="300" cy="380" r="12"/>
+  </g>
+  <g stroke="url(#badge2)" stroke-width="5" fill="none">
+    <path d="M300 200L230 260L300 320L370 260L300 200"/>
+    <path d="M230 260L300 380L370 260"/>
+    <path d="M300 320L300 380"/>
+  </g>
+</svg>

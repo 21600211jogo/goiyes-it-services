@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="accent2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#14b8a6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="1200" fill="url(#bg1)" rx="80"/>
+
+  <!-- Shield / circuit-inspired badge -->
+  <g transform="translate(250,180)">
+    <path d="M190 0L360 70v190c0 140-88 240-170 290C108 500 20 400 20 260V70L190 0z" fill="none" stroke="url(#accent)" stroke-width="18"/>
+    <path d="M190 60L316 112v148c0 96-62 163-126 210-64-47-126-114-126-210V112L190 60z" fill="none" stroke="#1f2937" stroke-width="8"/>
+
+    <!-- Circuit nodes -->
+    <g fill="url(#accent2)" stroke="#d1fae5" stroke-width="4">
+      <circle cx="190" cy="146" r="12"/>
+      <circle cx="106" cy="210" r="12"/>
+      <circle cx="190" cy="270" r="12"/>
+      <circle cx="278" cy="210" r="12"/>
+      <circle cx="190" cy="338" r="12"/>
+    </g>
+    <g stroke="url(#accent2)" stroke-width="6" fill="none">
+      <path d="M190 146L106 210L190 270L278 210L190 146"/>
+      <path d="M106 210L190 338L278 210"/>
+      <path d="M190 270L190 338"/>
+    </g>
+  </g>
+
+  <!-- Letters JG -->
+  <text x="600" y="700" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="190" font-weight="800" fill="#f8fafc" letter-spacing="-8">JG</text>
+  <text x="600" y="840" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="700" fill="#94a3b8" letter-spacing="10">TECHNOLOGY SOLUTIONS</text>
+</svg>
